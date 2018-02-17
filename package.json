@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Josef Nagy Personal Portfolio website Website",
+  "main": "./src/scripts/index.js",
+  "author": "Josef Nagy",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config webpack.config.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josefnagy/portfolio-website.git"
+  },
+  "keywords": [
+    "Josef Nagy",
+    "personal",
+    "portfolio",
+    "website",
+    "developer"
+  ],
+  "devDependencies": {
+    "extract-loader": "^1.0.2",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
+    "pug-html-loader": "^1.1.5",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {}
+}
